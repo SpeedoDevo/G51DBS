@@ -1,0 +1,106 @@
+table 
+{ 
+	background-color: yellow;
+	border: 2px solid;
+	margin: auto;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+tr.tablehead 
+{ 
+	border: 1px solid;
+	font-weight: bold;
+}
+
+td
+{
+	border: 1px solid;
+	border-top: 0px;
+	border-bottom: 0px;
+	padding: 0px;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+td.greatrating
+{
+	color: #00FF00;
+	border-color: #000000;
+}
+
+td.goodrating
+{
+	color: #FFFF00;
+	border-color: #000000;
+}
+
+td.okrating
+{
+	color: #FF8000;
+	border-color: #000000;
+}
+
+td.poorrating
+{
+	color: #FF0000;
+	border-color: #000000;
+}
+
+
+body
+{
+	margin:0px;
+	background-color: #FFFFFF;
+	color:#000000;
+	font-family:verdana, arial, sans-serif;
+	font-size:10pt;
+	text-align:center;
+}
+
+h1
+{
+	margin:20px;
+	font-family:verdana, arial, sans-serif;
+	font-size:16pt;
+	text-align:center;
+	font-weight:bold;
+}
+
+div.content
+{
+	margin:auto;
+	background-color: #FFFFFF;
+	padding:10px;
+}
+
+div.subcontent
+{
+	background-image:url('./images/blend.png');
+	background-repeat:repeat-x;
+	background-position:top;
+        margin:auto;
+	margin-bottom:40px;
+	width: 600px;
+	background-color: #FFFFFF;
+	border-color: #000000;
+	border: 2px solid;
+}
+
+div.subcontentheader
+{
+	font-family:verdana, arial, sans-serif;
+	font-size:14pt;
+	padding: 20px 0px 0px 0px;
+	text-align:center;
+	font-weight:bold;
+	height:80px;
+}
+
+div.subcontentbody
+{
+	padding: 0px 20px 20px 20px;
+}
+
+
+
